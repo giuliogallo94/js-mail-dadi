@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5vh auto;
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  background-color: #009540;
+  text-align: center;
+}
+
+.container h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dices {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.emoji {
+  margin-top: 2rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.display_none {
+  display: none;
+}

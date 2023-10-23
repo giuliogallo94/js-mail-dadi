@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
   </head>
   <body>
+    <div class="container">
+      <div class="dices">
+        <div class="square" id="user_dice"></div>
+        <div class="square" id="pc_dice"></div>
+      </div>
+      <h2 class="winner-announce" id="result"></h2>
+
+      <div class="emoji">
+        <span id="win" class="display_none"
+          ><i class="fa-solid fa-face-smile"></i
+        ></span>
+        <span id="lose" class="display_none"
+          ><i class="fa-solid fa-face-sad-cry display_none"></i
+        ></span>
+        <span id="tie" class="display_none"
+          ><i class="fa-solid fa-face-surprise display_none"></i
+        ></span>
+      </div>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
