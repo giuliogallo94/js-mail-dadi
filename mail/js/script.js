@@ -21,6 +21,7 @@ for (let i = 0; i < mailsList.length; i++) {
   const curMail = mailsList[i];
   if (curMail === mailUser) {
     found = true;
+    break;
   }
 
   console.log(curMail, mailUser, found);
